@@ -1,0 +1,72 @@
+[
+  {
+    "author": {
+      "id": "email@email.com",
+      "name": "Jorge",
+      "lastname": "Garcia",
+      "age": "12",
+      "nickname": "Jg",
+      "avatar": "foto"
+    },
+    "messages": {
+      "msg": "hello",
+      "id": "email@email.com"
+    }
+  },
+  {
+    "author": {
+      "id": "user@gmail.com",
+      "name": "User",
+      "lastname": "UserUser",
+      "age": "23",
+      "nickname": "Usuario",
+      "avatar": "https://miro.medium.com/max/700/0*0KjMdrZx4a1IKwOj"
+    },
+    "messages": {
+      "msg": "user@gmail.com",
+      "id": "user@gmail.com"
+    }
+  },
+  {
+    "author": {
+      "id": "usera2@gmail.com",
+      "name": "Usuario",
+      "lastname": "Usuario M",
+      "age": "32",
+      "nickname": "UserExperience",
+      "avatar": "https://miro.medium.com/max/700/0*JS-QgadyEhhsLpan"
+    },
+    "messages": {
+      "msg": "Buenas buenas ya funciona",
+      "id": "usera2@gmail.com"
+    }
+  },
+  {
+    "author": {
+      "id": "correo@correo.com",
+      "name": "Juan ",
+      "lastname": "Garcia",
+      "age": "21",
+      "nickname": "Garci",
+      "avatar": "imagen"
+    },
+    "messages": {
+      "msg": "Hola",
+      "id": "correo@correo.com"
+    }
+  },
+  {
+    "author": {
+      "id": "another@correo",
+      "name": "Dimitri",
+      "lastname": "V",
+      "age": "42",
+      "nickname": "DV",
+      "avatar": "image"
+    },
+    "messages": {
+      "msg": "Prueba",
+      "id": "another@correo"
+    }
+  }
+]

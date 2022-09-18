@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mocks - Normalizr - Faker</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/normalizr@3.6.1/dist/normalizr.browser.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <br>
+      <h1>
+          Fractal Store
+        </h1>
+        <a href="/login.html">Logueate</a>
+        <hr>
+        <br>
+        <div class="row">
+          <div class="col-6">
+              <h3>Productos</h3>
+                <a href="/api/normalized">Chat Normalizado</a>
+                <br>
+                <a href="/api/desnormalized">Chat Desnormalizado</a>
+              <div>
+                <br>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Name</th>
+                      <th scope="col">Price</th>
+                      <th scope="col">Image</th>
+                    </tr>
+                  </thead>
+                  <tbody id="tabla"></tbody>
+                </table>
+              </div>
+            </div>
+            <div class="col-4">
+            <br>
+            <form onSubmit="return addMsg()">
+              <div>
+                <h4>Dejas el mensaje aquí</h4>
+                <input type="email" placeholder="Ingresa tu email" id="inpmail" />
+                <input type="text-field" placeholder="Ingresa tu mensaje" id="inpmsg" />
+                <hr />
+                <h4>Datos para guardar</h4>
+                <input type="text" placeholder="Nombre" id="inpname" />
+                <input type="text" placeholder="Apellido" id="inplname" />
+                <input type="number" placeholder="Edad" id="inpage" />
+                <input type="text" placeholder="Nick" id="inpnick" />
+                <input type="text" placeholder="URL imagen" id="inpurl" />
+                <hr>
+                <input type="submit" value="Enviar" class="btn btn-primary" />
+              </div>
+              <br>
+            </form>
+          </div>
+          </div>
+        </div>
+      <div id="chat" class="container conversation"></div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
